@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,900;1,500&display=swap');
+a {
+	text-decoration: none;
+}
+
+.main-nav {   
+    background: transparent;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+
+}
+.main-nav a {
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-size:1.5em;
+	font-weight:600;
+	background:0074c51f;
+	margin:10px 0;
+	padding:0 5px;
+}
+
+.prod-header
+{
+	z-index:1;
+	position: fixed;
+    top: 0;
+}
+body {
+  font-family: "Muli";
+}
